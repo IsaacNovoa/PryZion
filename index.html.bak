@@ -22,7 +22,6 @@
       <ul class="nav-links">
         <li><a href="#about" data-i18n="nav_about">Sobre nosotros</a></li>
         <li><a href="#services" data-i18n="nav_services">Servicios</a></li>
-        <li><a href="#pricing" data-i18n="nav_pricing">Planes</a></li>
         <li><a href="#contact" data-i18n="nav_contact">Contacto</a></li>
         <li>
           <div class="lang-toggle">
@@ -41,7 +40,6 @@
   <div class="mobile-menu" id="mobileMenu">
     <a href="#about" data-i18n="nav_about">Sobre nosotros</a>
     <a href="#services" data-i18n="nav_services">Servicios</a>
-    <a href="#pricing" data-i18n="nav_pricing">Planes</a>
     <a href="#contact" data-i18n="nav_contact">Contacto</a>
     <div class="lang-toggle" style="align-self:flex-start; margin-top:16px;">
       <button class="lang-btn active" data-lang="es" onclick="setLang('es')">ES</button>
@@ -131,62 +129,6 @@
           <h3 data-i18n="service_3_title">Tu proyecto</h3>
           <p data-i18n="service_3_desc">¿Tienes otra idea en mente? Cuéntanos tu proyecto y encontraremos la solución digital perfecta para ti.</p>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <div class="divider"></div>
-
-  <!-- ═══════════════ PRICING ═══════════════ -->
-  <section class="pricing" id="pricing">
-    <div class="container">
-      <p class="section-label reveal" data-i18n="pricing_label">Planes</p>
-      <h2 class="section-title reveal reveal-delay-1" data-i18n="pricing_title">Elige tu plan</h2>
-      <p class="section-desc reveal reveal-delay-2" data-i18n="pricing_desc">Dos formas de empezar tu proyecto digital. Sin sorpresas, sin letra pequeña.</p>
-
-      <div class="pricing-table-card reveal reveal-delay-3">
-        <table class="pricing-table">
-          <thead>
-            <tr>
-              <th></th>
-              <th>
-                <div class="pricing-plan-name" data-i18n="pricing_plan1_name">Esencial</div>
-                <div class="pricing-plan-price"><span class="pricing-eur">€</span>750</div>
-                <div class="pricing-plan-detail" data-i18n="pricing_plan1_detail">Pago único</div>
-                <div class="pricing-plan-sub" data-i18n="pricing_plan1_sub">+ 22 €/mes a partir del 5.º mes</div>
-              </th>
-              <th class="pricing-col-popular">
-                <div class="pricing-plan-header">
-                  <div class="pricing-badge" data-i18n="pricing_badge">Más popular</div>
-                </div>
-                <div class="pricing-plan-name" data-i18n="pricing_plan2_name">Profesional</div>
-                <div class="pricing-plan-price"><span class="pricing-eur">€</span>145<span class="pricing-period">/mes</span></div>
-                <div class="pricing-plan-detail" data-i18n="pricing_plan2_detail">Todo incluido</div>
-                <div class="pricing-plan-sub" data-i18n="pricing_plan2_sub">Permanencia mínima 12 meses</div>
-              </th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="pricing-cat-row"><td colspan="3" data-i18n="pricing_cat_dev">Desarrollo web</td></tr>
-            <tr><td data-i18n="pricing_feat_design">Diseño web a medida</td><td class="pricing-val" data-i18n="pricing_val_yes1a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes1b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_responsive">Diseño responsive</td><td class="pricing-val" data-i18n="pricing_val_yes2a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes2b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_seo">SEO básico</td><td class="pricing-val" data-i18n="pricing_val_yes3a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes3b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_form">Formulario de contacto</td><td class="pricing-val" data-i18n="pricing_val_yes4a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes4b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_revisions">Revisiones de diseño</td><td class="pricing-val" data-i18n="pricing_val_2rev">2 revisiones</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_unlimited">Ilimitadas</td></tr>
-
-            <tr class="pricing-cat-row"><td colspan="3" data-i18n="pricing_cat_hosting">Hosting y mantenimiento</td></tr>
-            <tr><td data-i18n="pricing_feat_hosting">Hosting incluido</td><td class="pricing-val" data-i18n="pricing_val_4months">4 meses gratis</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_always">Siempre incluido</td></tr>
-            <tr><td data-i18n="pricing_feat_ssl">Certificado SSL</td><td class="pricing-val" data-i18n="pricing_val_yes5a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes5b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_maintenance">Mantenimiento web</td><td class="pricing-val pricing-from-sub" data-i18n="pricing_val_fromsub1">Desde la suscripción</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_monthly">Mensual</td></tr>
-            <tr><td data-i18n="pricing_feat_updates">Actualizaciones de contenido</td><td class="pricing-val pricing-from-sub" data-i18n="pricing_val_fromsub2">Desde la suscripción</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_included">Incluidas</td></tr>
-            <tr><td data-i18n="pricing_feat_backups">Copias de seguridad</td><td class="pricing-val pricing-from-sub" data-i18n="pricing_val_fromsub3">Desde la suscripción</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_weekly">Semanales</td></tr>
-
-            <tr class="pricing-cat-row"><td colspan="3" data-i18n="pricing_cat_support">Soporte</td></tr>
-            <tr><td data-i18n="pricing_feat_email">Soporte por email</td><td class="pricing-val" data-i18n="pricing_val_yes6a">Sí</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes6b">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_priority">Soporte prioritario</td><td class="pricing-val pricing-no-text" data-i18n="pricing_val_no4">No</td><td class="pricing-col-popular pricing-val" data-i18n="pricing_val_yes7">Sí</td></tr>
-            <tr><td data-i18n="pricing_feat_response">Tiempo de respuesta</td><td class="pricing-val">&lt; 48h</td><td class="pricing-col-popular pricing-val">&lt; 24h</td></tr>
-          </tbody>
-        </table>
       </div>
     </div>
   </section>
