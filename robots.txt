@@ -1,8 +1,0 @@
-# Pryzion — robots.txt
-# https://pryzion.es
-
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://pryzion.es/sitemap.xml
